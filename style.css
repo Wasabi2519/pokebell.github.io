@@ -1,0 +1,30 @@
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .input-group {
+    display: flex;
+  }
+
+  .input-group input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+
+  .input-group button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .output {
+    margin-top: 1rem;
+  }
