@@ -1,26 +1,28 @@
-//update 27 december 2023
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>懐かしのポケベル！！</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css">
+    <title>懐かしのﾎﾟｹﾍﾞﾙ!!</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
-    <div class="container mx-auto mt-4">
-        <h2 class="text-center text-2xl font-bold my-4">懐かしのポケベル！！</h2>
-    
+    <div class="container">
+        <h2 class="title">懐かしのﾎﾟｹﾍﾞﾙ!!</h2>
+
         <div class="input-group">
-            <input type="text" id="input-text" class="flex-grow p-2 border border-gray-300 rounded" placeholder="数字またはひらがなを入力してください">
-            <button onclick="convertToHiraganaOrNumber()" class="ml-2 px-4 py-2 bg-green-500 text-white rounded">変換</button>
+            <input type="text" id="input-text" class="input-field" placeholder="数字またはひらがなを入力">
+            <button onclick="convertToHiraganaOrNumber()" class="convert-button">変換</button>
         </div>
-    
-        <p class="output mt-4">変換結果: <span id="output-text" class="font-bold"></span></p>
+
+        <p class="output">変換結果: <span id="output-text" class="output-text"></span></p>
+
+
+        <p class="latest">Latest update: 7 October 2024</p> <!-- 英語で最新アップデートを表示 -->
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
